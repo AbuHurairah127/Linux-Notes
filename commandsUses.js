@@ -31,6 +31,10 @@ const LinuxCommands = [
     use: "To move a file to a specific directory",
   },
   {
+    command: "mv fileName fileName",
+    use: "To rename a file.",
+  },
+  {
     command: "cp filename/filepath path",
     use: "To copy file to specific directory",
   },
