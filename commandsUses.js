@@ -58,4 +58,14 @@ const LinuxCommands = [
     command: "man commandName",
     use: "To open a manual/docs for a specific command",
   },
+  {
+    command: "find path(from root) filename",
+    use: "To find a file in the specific directory",
+    useCase2:
+      "if * is written at the end of file name , finds a file in the specific directory and show all instances of its existence",
+  },
+  {
+    command: "find path(from root) -name filename",
+    use: "provides a path to the file from root",
+  },
 ];
