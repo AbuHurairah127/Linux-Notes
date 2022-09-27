@@ -34,4 +34,24 @@ const LinuxCommands = [
     command: "cp filename/filepath path",
     use: "To copy file to specific directory",
   },
+  {
+    command: "clear",
+    use: "Clear the screen of terminal",
+  },
+  {
+    command: "history",
+    use: "To get the history of the terminal that which command we have run",
+  },
+  {
+    command: "rm filename.png",
+    use: "Remove a file",
+  },
+  {
+    command: "rmdir directoryName",
+    use: "Remove a directory",
+  },
+  {
+    command: "man commandName",
+    use: "To open a manual/docs for a specific command",
+  },
 ];
