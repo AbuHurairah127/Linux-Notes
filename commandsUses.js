@@ -90,4 +90,10 @@ const LinuxCommands = [
     command: "sudo apt-get install packageName",
     use: "to install a software when u are in normal user mode",
   },
+  //Scripting
+  {
+    command: "touch name.sh",
+    use: "script is written for something we want to repeat multiple times or every time we start our shell",
+    shellIndicator: "#!/bin/bash",
+  },
 ];
