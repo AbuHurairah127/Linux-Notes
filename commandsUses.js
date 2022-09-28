@@ -109,4 +109,10 @@ const LinuxCommands = [
     command: "ls -l",
     use: "to print the permissions list",
   },
+  {
+    command: "chmod",
+    use: "to change the permissions for file access",
+    usageWay:
+      "chmod numValForFileOwner|numValForGroup|numValForOtherUsers fileName  e.g. chmod 777 abc.sh",
+  },
 ];
