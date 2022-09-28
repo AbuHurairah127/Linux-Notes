@@ -27,6 +27,12 @@ const LinuxCommands = [
     use: "To make a new text file",
   },
   {
+    command: "vi name.txt",
+    use: "To open file in CLI text editor",
+    termination:
+      "to terminate the process press ctrl + c  and the write ':wq' to save and quit",
+  },
+  {
     command: "mv fileName Path",
     use: "To move a file to a specific directory",
   },
