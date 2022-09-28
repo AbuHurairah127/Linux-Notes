@@ -76,4 +76,12 @@ const LinuxCommands = [
     command: "exit",
     use: "to return back from super user/admin to normal user",
   },
+  {
+    command: "apt-get install packageName",
+    use: "to install a software when u are in super user /admin mode",
+  },
+  {
+    command: "sudo apt-get install packageName",
+    use: "to install a software when u are in normal user mode",
+  },
 ];
