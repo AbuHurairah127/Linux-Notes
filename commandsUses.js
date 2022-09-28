@@ -68,4 +68,12 @@ const LinuxCommands = [
     command: "find path(from root) -name filename",
     use: "provides a path to the file from root",
   },
+  {
+    command: "sudo su",
+    use: "to login as a super user/admin",
+  },
+  {
+    command: "exit",
+    use: "to return back from super user/admin to normal user",
+  },
 ];
