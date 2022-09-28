@@ -115,4 +115,17 @@ const LinuxCommands = [
     usageWay:
       "chmod numValForFileOwner|numValForGroup|numValForOtherUsers fileName  e.g. chmod 777 abc.sh",
   },
+  // general Commands
+  {
+    commands: "uptime",
+    use: "it is used to check for how much time machine is running",
+  },
+  {
+    commands: "uname",
+    use: "it is used to check which operating system is being used",
+  },
+  {
+    commands: "uname -srv",
+    use: "it is used to check which operating system is being used ,its release and its version",
+  },
 ];
