@@ -96,4 +96,11 @@ const LinuxCommands = [
     use: "script is written for something we want to repeat multiple times or every time we start our shell",
     shellIndicator: "#!/bin/bash",
   },
+  //Permissions
+  {
+    0: "Zero means no permission",
+    1: "One means executable permissions",
+    2: "Two means write permissions",
+    4: "Four means read permissions",
+  },
 ];
