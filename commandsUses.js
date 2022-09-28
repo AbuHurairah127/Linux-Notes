@@ -102,5 +102,11 @@ const LinuxCommands = [
     1: "One means executable permissions",
     2: "Two means write permissions",
     4: "Four means read permissions",
+    "-rw-rw-r--":
+      "1st is for file owner and second is for group and third is for other users",
+  },
+  {
+    command: "ls -l",
+    use: "to print the permissions list",
   },
 ];
