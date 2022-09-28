@@ -16,6 +16,7 @@ const LinuxCommands = [
     useCase4:
       "cd FolderName (Move to  the directory which name is written if the directory is present in the specific directory in which you are working)",
     useCase5: "cd path (Move to the specific path if the path is true)",
+    useCase5: "cd ~ (move to the root of the user)",
   },
   {
     command: "mkdir DirName",
@@ -127,5 +128,19 @@ const LinuxCommands = [
   {
     commands: "uname -srv",
     use: "it is used to check which operating system is being used ,its release and its version",
+  },
+  {
+    commands: "hostname",
+    use: "it is used to check machine name",
+    useCase1:
+      "hostname -i (it is used to check hostname(machine name) and host address)",
+  },
+  {
+    command: "date",
+    use: "to print date and time",
+  },
+  {
+    command: "cal",
+    use: "to print this month calender",
   },
 ];
